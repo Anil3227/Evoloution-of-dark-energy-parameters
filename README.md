@@ -5,7 +5,7 @@ This repository explores the **evolution of dark energy parameters** in a cosmol
 * **Scale Factor** `a(t)`
 * **Fractional Energy Densities** `Ωᵢ(t)` for matter and dark energy
 * **Deceleration Parameter** `q(t)`
-* **Equation of state 'w(t)'
+* ****Equation of state w(t)**
 
 ## 🧠 Overview
 
@@ -43,9 +43,7 @@ Example outputs:
 * ✅ Evolution of `Ω_m(t)`, `Ω_DE(t)`
 * ✅ Deceleration parameter `q(t)` showing acceleration transition
 * ✅  Equation of state 'w(t)'
-![a(t) Plot](plots/scale_factor.png)
-![Fractional Energy Density](plots/fractional_densities.png)
-![Deceleration Parameter](plots/deceleration_parameter.png)
+
 
 
 ## 🧭 Future Work
