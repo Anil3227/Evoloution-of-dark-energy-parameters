@@ -5,6 +5,7 @@ This repository explores the **evolution of dark energy parameters** in a cosmol
 * **Scale Factor** $a(t)$
 * **Fractional Energy Densities** $\Omega_i(t)$ for matter and dark energy
 * **Deceleration Parameter** $q(t)$
+* **equation of state state w(t)$
 
 ## 🧠 Overview
 
