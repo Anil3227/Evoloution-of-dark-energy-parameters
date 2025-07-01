@@ -5,6 +5,7 @@ This repository explores the **evolution of dark energy parameters** in a cosmol
 * **Scale Factor** `a(t)`
 * **Fractional Energy Densities** `Ωᵢ(t)` for matter and dark energy
 * **Deceleration Parameter** `q(t)`
+* **Equation of state 'w(t)'
 
 ## 🧠 Overview
 
@@ -34,49 +35,18 @@ We solve the Friedmann equations numerically using Python. The evolution equatio
 
 These equations are solved using numerical integration (`scipy.integrate.solve_ivp`), and results are visualized using `matplotlib`.
 
-## 📂 Repository Structure
 
-```
-├── main.py                 # Main simulation script
-├── plots/                 # Output plots for a(t), Omega, q(t)
-├── models/                # Potential functions or EoS models
-├── utils/                 # Utility functions (e.g., numerical solvers)
-└── README.md              # Project documentation
-```
-
-## 📊 Results
 
 Example outputs:
 
 * ✅ Plot of scale factor `a(t)`
 * ✅ Evolution of `Ω_m(t)`, `Ω_DE(t)`
 * ✅ Deceleration parameter `q(t)` showing acceleration transition
-
+* ✅  Equation of state 'w(t)'
 ![a(t) Plot](plots/scale_factor.png)
 ![Fractional Energy Density](plots/fractional_densities.png)
 ![Deceleration Parameter](plots/deceleration_parameter.png)
 
-## 🚀 How to Run
-
-1. Install required libraries:
-
-   ```bash
-   pip install numpy scipy matplotlib
-   ```
-
-2. Run the main script:
-
-   ```bash
-   python main.py
-   ```
-
-3. Plots will be saved in the `plots/` directory.
-
-## 📚 References
-
-* Planck 2018 results
-* DESI 2025 BAO and Supernova data (optional if applicable)
-* Copeland, Sami & Tsujikawa (2006) – *Dynamics of Dark Energy*
 
 ## 🧭 Future Work
 
